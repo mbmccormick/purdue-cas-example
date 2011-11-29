@@ -26,7 +26,7 @@
         Hello, <b><?php echo phpCAS::getAttribute('fullname'); ?></b>!
     </p>
     <p>
-        Your username is <b><?php echo phpCAS::getUser(); ?></b>. Your PUID is <b><?php echo phpCAS::getAttribute('puid'); ?></b>. Your I2A2 characteristics are <b><?php echo phpCAS::getAttribute('i2a2characteristics'); ?></b>.
+        Your username is <b><?php echo phpCAS::getUser(); ?></b>. Your email address is <b><?php echo phpCAS::getAttribute('email'); ?></b>. Your PUID is <b><?php echo phpCAS::getAttribute('puid'); ?></b>. Your I2A2 characteristics are <b><?php echo phpCAS::getAttribute('i2a2characteristics'); ?></b>.
     </p>
     <p>
         <a href="?logout=">Logout</a>
